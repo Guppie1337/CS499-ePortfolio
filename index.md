@@ -13,6 +13,10 @@ Munchy Bear is a simple arcade game developed in Unity3D for mobile devices; spe
 
 Character Concept Lab is yet again a mobile app developed in Unity3D. This application is designed to be used as a base tool for anyone working with concept creation; artists, writers, table-top RPG players, and more. Overall, the idea is very simple. You get attributes from some kind of data store and display them to the user through a healthy blend of logic. Although very simple, there is always room for improvement. My initial approach was to name a text file for each attribute and parse it line by line to retrieve the information. This implementation worked well to get the project done, but it left little room for extensibility. Furthermore, it was very explicit on the file searching and was not structured well at all. To utilize a more relational data structure, I decided a transition to XML would be more appropriate for populating collections.
 
+### Campsite Locator (Databases)
+
+Campsite Locator is the only addition to this portfolio that was directly coursework. The concept was to hold a database of campsites and allow individuals to search for them. The initial implementation would override any Google Maps/Location API search results and populate the campsite on the map and parse the associated information. The campsites would each populate a flyout drawer to give the user information about the campsite. All the information for each campsite I wanted the user to know was associated in the Campsite class (Data Access Object). Instead of keeping this approach, I've decided to go with an approach that focused on _User Experience_ that takes advantage of both the Google Maps/Location API and my hard-implemented database for campsites. 
+
 
 ### Markdown
 
