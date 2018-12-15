@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome Chris Eastridge's Portfolio
 
-You can use the [editor on GitHub](https://github.com/Guppie1337/CS499-ePortfolio/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+In this portfolio, I will present several projects that were created throughout my college courses. Although given the opportunity to work with items completed for coursework, I've decided to use some personal projects to further demonstrate a "before and after" approach. Not only do I hope to express my thoughts thoroughly, but I hope my transition is worthy enough to inspire others to keep learning!
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
