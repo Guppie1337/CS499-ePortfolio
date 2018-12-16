@@ -2,8 +2,6 @@
 
 In this portfolio, I will present several projects that were created throughout my college courses. Although given the opportunity to work with items completed for coursework, I've decided to use some personal projects to further demonstrate a "before and after" approach. Not only do I hope to express my thoughts thoroughly, but I hope my transition is worthy enough to inspire others to keep learning!
 
-   Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ## Projects
 1. Munchy Bear
 2. Character Concept Lab
