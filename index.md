@@ -18,7 +18,8 @@ Munchy Bear is a simple arcade game developed in Unity3D for mobile devices; spe
 
 ![Munchy Bear Image](https://guppie1337.github.io/ceastridge-snhu-cs499/munchy_bear_display.png)
 
-**_Reflection:_ ** 
+####**_Reflection:_** 
+
 When I first started to consider implementing the state machine/abstraction refactor, I considered the change to be a relatively simple task. However, once I started to design how and where states would transition information, I ran into the same issue but with more classes. To make things nicer, I created a “singleton” type of object that references all the controllers in the game scene. Once the references were established, the state machines would handle most of the work by talk directly with the controllers required. 
       
 The good thing about games, most of the transitional methods are obvious; you activate, deactivate, and update everything. This made it easy for me to decide on an abstract base class that each state would implement and override. Considering that my game has scenes which automatically destroys and recreates objects on load transitions, I’ve considered that idea of making the menu and achievements board into UI panels and utilizing states to have them overlay the gameplay scene. This way, if the user decides to view either of those during play they don’t have to wait for everything to load all over again. Furthermore, this would take advantage of the optimization of memory management within the game.
