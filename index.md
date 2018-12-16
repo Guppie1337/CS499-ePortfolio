@@ -53,6 +53,15 @@ Here is a link to this project's final review: **_LINK_**
 
 **_Reflection:_**
 
+My first task in the process was to immediately put the proper location handling responsibility back in the hands of the Google Maps/Location API. Maybe I misunderstood direction or maybe I just had a horrible design in mind and didn’t realize it at the time. When I went through my logic and reviewed how I was overriding the location searching just to populate a hardcoded campsite from the database, I knew I was doing something wrong. I had to find a way to implement the database while still allowing the user experience to flourish.
+
+I changed the process by which a user can search for a campsite by letting them toggle campsites nearby or go to the nearest campsite to their searched location. By doing so, I let users determine campsite by going to known locations first, then branching from proximity. I was also hoping the experience would let people think things like, “wait… there are campsite near Atlanta?!”. 
+
+Overall, the process of transitioning was simple. I wrote a few algorithms to check distances and compared them to the location when a search was processed. The user can then go to/populate campsite markers by pressing a float action button on the lower part of the screen. I felt it was a very simple. Everything looked good until I decided to run it on my Pixel XL!
+
+The first launch yielded a crash due to a FusedLocationProvider call that was referencing a null location. The problem with the call is that it requires the user’s last location to be pulled from somewhere. To me, the issue was like being denied your first credit card because you don’t have established credit. Sure, there are other ways, but really? I refactored that method’s logic to a hardcoded, predefined location; Southern New Hampshire University. Now users can enjoy the app and utilize both the Google Maps/Location API database concurrently.
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
