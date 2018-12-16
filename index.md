@@ -61,6 +61,18 @@ Overall, the process of transitioning was simple. I wrote a few algorithms to ch
 
 The first launch yielded a crash due to a FusedLocationProvider call that was referencing a null location. The problem with the call is that it requires the user’s last location to be pulled from somewhere. To me, the issue was like being denied your first credit card because you don’t have established credit. Sure, there are other ways, but really? I refactored that method’s logic to a hardcoded, predefined location; Southern New Hampshire University. Now users can enjoy the app and utilize both the Google Maps/Location API database concurrently.
 
+## Professional Self-Assessment
+
+Throughout my coursework, I’ve been presented with many opportunities to work on different projects and different languages. Some projects required multiple languages and even technologies to complete. Not only do I feel I’m a well-rounded programmer by the experienced immersion, but I embrace the change of technology and choose to grow with it. When there is a desire to accomplish a task, I don’t always go for the first tool I know how to use; I make a determination of what to use and how to implement it. 
+
+When first learning about version control software, I decided to work on a project with a friend and force the opportunity to learn more about it. We ultimately failed that project but learned many valuable things from it. I can now successfully utilize version control with local and remote repositories to the advantage of the overall development process.
+
+Furthermore, every project started was conceptualized, documented, designed, implemented, and tested for verification and validation purposes. One thing I knew going in was that I didn’t know everything. No problem! That’s why _Agile Development_ is for! Working on a small team made it a bit difficult to be so formally “informal” about the process and distribute agile roles. Therefore, I took it upon myself to distribute responsibilities between myself and two other people. We rotated responsibilities by time and project and I successfully demonstrated competency in each role from: Stake Holder, Product Owner, Scrum Master, Developer, and Tester. I even had the opportunity to implement a Kanban process which worked very well. I still use these processes personally and professionally to this day.
+
+As a developer and tester, I took it upon myself to maintain the integrity of the projects by playing devil’s advocate. I scrutinized everything from the process to the implementation details. Doing so allowed me to emulate a real world development environment in which security of information is a must. Whether it be for data leaks of Personally Identifiable Information like SSN, medical information, or even proprietary artifacts, I ensured our processes were as clean as we could make them for _”amateurs”._
+
+Lastly, I believe the projects shared in this portfolio demonstrate a range of knowledge that is valuable to a prospective company. The ability to recognize, navigate, and program logic from what would be considered different roles on a project show my flexibility for any job. What I hope to showcase most of all with my projects is my creativity and eagerness to be a better programmer and designer. From personal projects to critical self-awareness, I believe I have what it takes to add great value to any project I’m fortunate to be a part of.
+
 
 ### Markdown
 
