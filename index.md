@@ -10,7 +10,7 @@
 3. Campsite Locator
 
 ### Initial Code Review
-Link to video goes here.
+[Character Concept Lab Image](https://guppie1337.github.io/ceastridge-snhu-cs499/character_concept_lab_display.JPG)
 
 ### Munchy Bear (Software Engineering/Design)
 
