@@ -16,9 +16,12 @@ Link to video goes here.
 
 Munchy Bear is a simple arcade game developed in Unity3D for mobile devices; specifically Android. It was the first project I ever completed on my own (except for my wife's art) to get a better understanding of the development process from concept to publish. When I first went through the process of programming it, I was very new to understanding Object Oriented Programming and had very little concept of abstraction. I ended up putting all of the logic for state transitions in the Update method (Unity game loop lifecycle) via nested booleans, and only realized the complexity when more than 2 states existed; Play. Pause, and Game Over. Due to this, I feel the project is great for demonstrating my ability to abstract a state machine and reassign responsibilities.
 
+Here is a link to this project's final review: **_LINK_**
+
 ![Munchy Bear Image](https://guppie1337.github.io/ceastridge-snhu-cs499/munchy_bear_display.png)
 
-####**_Reflection:_** 
+
+**_Reflection:_** 
 
 When I first started to consider implementing the state machine/abstraction refactor, I considered the change to be a relatively simple task. However, once I started to design how and where states would transition information, I ran into the same issue but with more classes. To make things nicer, I created a “singleton” type of object that references all the controllers in the game scene. Once the references were established, the state machines would handle most of the work by talk directly with the controllers required. 
       
@@ -33,11 +36,16 @@ Character Concept Lab is yet again a mobile app developed in Unity3D. This appli
 ![Character Concept Lab Image](https://guppie1337.github.io/ceastridge-snhu-cs499/character_concept_lab_display.JPG)
 
 
+**_Reflection:_**
+
 ### Campsite Locator (Databases)
 
 Campsite Locator is the only addition to this portfolio that was directly coursework. The concept was to hold a database of campsites and allow individuals to search for them. The initial implementation would override any Google Maps/Location API search results and populate the campsite on the map and parse the associated information. The campsites would each populate a flyout drawer to give the user information about the campsite. All the information for each campsite I wanted the user to know was associated in the Campsite class (Data Access Object). Instead of keeping this approach, I've decided to go with an approach that focused on _User Experience_ that takes advantage of both the Google Maps/Location API and my hard-implemented database for campsites. 
 
 ![Campsite Locator Image](https://guppie1337.github.io/ceastridge-snhu-cs499/campsite_locator_display.png)
+
+
+**_Reflection:_**
 
 ### Markdown
 
