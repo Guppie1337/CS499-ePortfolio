@@ -75,35 +75,3 @@ As a developer and tester, I took it upon myself to maintain the integrity of th
 
 Lastly, I believe the projects shared in this portfolio demonstrate a range of knowledge that is valuable to a prospective company. The ability to recognize, navigate, and program logic from what would be considered different roles on a project show my flexibility for any job. What I hope to showcase most of all with my projects is my creativity and eagerness to be a better programmer and designer. From personal projects to critical self-awareness, I believe I have what it takes to add great value to any project I’m fortunate to be a part of.
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Guppie1337/CS499-ePortfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
