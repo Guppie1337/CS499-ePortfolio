@@ -9,11 +9,17 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 2. Character Concept Lab
 3. Campsite Locator
 
+### Initial Code Review
+Link to video goes here.
+
 ### Munchy Bear (Software Engineering/Design)
 
 Munchy Bear is a simple arcade game developed in Unity3D for mobile devices; specifically Android. It was the first project I ever completed on my own (except for my wife's art) to get a better understanding of the development process from concept to publish. When I first went through the process of programming it, I was very new to understanding Object Oriented Programming and had very little concept of abstraction. I ended up putting all of the logic for state transitions in the Update method (Unity game loop lifecycle) via nested booleans, and only realized the complexity when more than 2 states existed; Play. Pause, and Game Over. Due to this, I feel the project is great for demonstrating my ability to abstract a state machine and reassign responsibilities.
 
 ![Munchy Bear Image](https://guppie1337.github.io/ceastridge-snhu-cs499/munchy_bear_display.png)
+      _Reflection:_ When I first started to consider implementing the state machine/abstraction refactor, I considered the change to be a relatively simple task. However, once I started to design how and where states would transition information, I ran into the same issue but with more classes. To make things nicer, I created a “singleton” type of object that references all the controllers in the game scene. Once the references were established, the state machines would handle most of the work by talk directly with the controllers required. 
+The good thing about games, most of the transitional methods are obvious; you activate, deactivate, and update everything. This made it easy for me to decide on an abstract base class that each state would implement and override. Considering that my game has scenes which automatically destroys and recreates objects on load transitions, I’ve considered that idea of making the menu and achievements board into UI panels and utilizing states to have them overlay the gameplay scene. This way, if the user decides to view either of those during play they don’t have to wait for everything to load all over again. Furthermore, this would take advantage of the optimization of memory management within the game.
+The biggest challenge I’ve faced is the amount of tight coupling that exists within the project. It’s absolutely astounding how much you can get done even though you don’t have the best practices. Being that it was so tightly coupled, it has proven to be a very tedious process to clean everything up and reorganize responsibilities. Although the state machine is working, some of the implementation is still hardcoded through the singleton object class where the responsibility should not exist in. This refactoring of responsibilities will be the biggest part of the abstraction. However, once it’s complete, any future refactors should be much easier and cleaner to accomplish. 
 
 ### Character Concept Lab (Algorithms and Data Structure)
 
